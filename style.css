@@ -1,7 +1,32 @@
 body{
     text-align: center;
 }
-lable{
+
+h1{
+    font-size: 3rem;
+}
+label{
+    font-size: 2rem;
     display: block;
-    padding-bottom: 1rem;
+    padding-bottom: 2rem;
+}
+input{
+    display: block;
+    border: solid;
+    border-width: 3px;
+    border-radius: 0.5rem;
+    height: 3rem;
+    margin: auto;
+    width: 230px;
+    border-color: rgb(30, 156, 156);
+}
+
+button{
+    display: block;
+    margin: auto;
+    border-width:4px ;
+    border-radius: 0.5rem;
+    height: 2rem;
+    width: 5rem;
+    border-color: rgb(30, 156, 156);
 }
