@@ -22,7 +22,7 @@ function calculateProfitAndLoss(initial, quantity, current) {
       showOutput("No pain no gain and no gain no pain");
     }
   } else {
-    showOutput("Plesae Enter sensible value of initial & current price");
+    showOutput("Please Enter sensible value of initial & current price");
   }
 }
 
