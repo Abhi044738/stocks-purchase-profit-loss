@@ -5,7 +5,7 @@ var submitBtn = document.querySelector("#submit-btn");
 var outputBox = document.querySelector("#output-box");
 
 function calculateProfitAndLoss(initial, quantity, current) {
-  if (initial > 0 && current > 0) {
+  if (initial > 0 && current > 0 && quantity > 0) {
     if (initial > current) {
       var loss = (initial - current) * quantity;
       var lossPercentage = (loss / initial) * 100;
